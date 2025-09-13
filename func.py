@@ -17,10 +17,20 @@ print(result)
 
 
 
-# Convert celsisus to fohrenheit. 
-def Celsisus_to_fohrenheit(Celsisu):
-    Forenheit = (Celsius *9/5)+32
-    return Forenheit
-temp_f = Celsisus_to_fohrenheit(25)
-print(temp_f)
-    
+# Convert celsius to fahrenheit - with retun
+def Celsius_to_fahrenheit(Celsius):
+    Fahrenheit = (Celsius * 9/5) + 32
+    return Fahrenheit
+
+temp_f1 = Celsius_to_fahrenheit(25)
+print(temp_f1)
+print("with return:",type(temp_f1))
+
+
+# Convert celsius to fahrenheit-without return 
+def Celsius_to_fahrenheit(Celsius):
+    Fahrenheit = (Celsius * 9/5) + 32
+    print( Fahrenheit)
+
+temp_f2 = Celsius_to_fahrenheit(25)
+print("Without return:",type(temp_f2))
