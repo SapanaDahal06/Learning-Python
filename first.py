@@ -1,2 +1,4 @@
 print('hello,world')
-print(21*22)
+
+Instruster = "Adellise"
+print('Python by',Instruster)
