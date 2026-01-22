@@ -10,5 +10,5 @@ l.insert(1,189)#insert new number in a list.
 m = [100,200,300,400]
 l.extend(m)# new number extend in a list in last position.
 k = m + l
-print(k)
+print(k)#Concating method.
 print(l)

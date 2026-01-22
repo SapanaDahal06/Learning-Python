@@ -33,5 +33,5 @@ x = 3.1415
 print(type(x))
 
 def gretting(name):
-    print("Hello",name,"!")
+    print("Hello", name,"!")
     gretting("Sapana")

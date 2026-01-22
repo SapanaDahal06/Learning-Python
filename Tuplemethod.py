@@ -89,7 +89,7 @@ list_num = list(tuple_num)
 list_num[0] = 150
 list_num[3] = 200
 list_num.append(300)#Using append method.
-list_num.remove(30)
+list_num.remove(30)#Using remove method . 
 print(list_num)
 
 
