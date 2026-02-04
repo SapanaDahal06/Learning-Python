@@ -14,3 +14,4 @@ except Exception as e:
 finally:
     print("Some line of code")
     print("End of the code.")
+    print("Thats shit Dear Users.")
